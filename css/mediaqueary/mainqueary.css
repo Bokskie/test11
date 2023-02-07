@@ -1,0 +1,42 @@
+@media (max-width: 740px){
+
+.first-container
+{
+    text-align: center; 
+    margin-top: 8rem;
+    height: auto;
+    width: 100%;
+}
+/*------------------------Font Animation-----------------*/
+.first-container h1 
+{
+    font-size: var(--wp-represent-font-size-large);
+    font-family: "Ink Free";
+}
+@keyframes animate
+{
+    0%, 10%, 100%
+    {
+        width: 0;
+    }
+    70%, 90%
+    {
+        width: 237px;
+    }
+}
+.first-container .first-all-content
+{
+    margin-top: 4rem;
+    display: flex;
+}
+.first-container .first-home-page
+{
+
+    width: 100%;
+}
+.first-container .second-home-page
+{
+    width: 100%;
+}
+
+}
